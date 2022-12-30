@@ -1,0 +1,38 @@
+body {
+    background: rgb(199, 174, 174);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(184, 108, 108);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(58, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(204, 174, 174);
+  }
+
+
+  
+  
+  .container {
+    position: center;
+    max-width: 300px;
+    margin: 70px;
+    background: rgb(156, 120, 120);
+    padding: 10px;
+  }

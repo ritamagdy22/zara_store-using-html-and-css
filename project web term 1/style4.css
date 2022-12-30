@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    font-weight: century gothic;
+    background:url(collections.jpg)no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.container{
+height: 75vh;
+width:30%;
+background: rgba(0,0,0,0,.6 );
+position : absolute;
+top : 50%;
+left : 50%;
+transform:translate(-50%,-50%);
+padding:0 10px;
+}
+
+
+.imag{
+height:70px;
+width:70px;
+background: url("collections.jpg")no-repeat;
+background-size:cover;
+background-position:center;
+border-radius:50px;
+top:0%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+div{
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.575);
+  width: 300px;
+  
+  margin: 15;
+  padding: 66;
+ 
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(167, 117, 117);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(150, 62, 62);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(184, 158, 158);
